@@ -9,6 +9,7 @@ import masukPage from "./pages/masukPage";
 import homePage from "./pages/homePage";
 import orderPage from "./pages/orderPage";
 import searchPage from "./pages/searchPage";
+import infoPage from "./pages/infoPage";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/masuk" Component={masukPage} />
         <Route path="/order" Component={orderPage} />
         <Route path="/search" Component={searchPage} />
+        <Route path="/info" Component={infoPage} />
       </Routes>
     </>
   )

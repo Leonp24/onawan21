@@ -312,6 +312,23 @@ body .btn-utama:hover {
 .search .hasil .card-pilihan h4 {
     color: #D0881C;
 }
+
+/* info */
+.detail-info {
+    margin-top: 50px;
+}
+
+.detail-info .radios {
+    display: flex;
+}
+.detail-info .radios .form-check {
+    margin-right: 50px;
+}
+
+
+
+
+
 /* footer */
 footer {
     background-color: #00487F;

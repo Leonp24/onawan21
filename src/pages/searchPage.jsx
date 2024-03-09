@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap"
+import { Link } from "react-router-dom";
 
 import NavComponent from "../components/NavComponent";
 import FooterComponent from "../components/FooterComponent";
@@ -37,7 +38,7 @@ const searchPage = () => {
                             <Col>
                                 <img src="../src/assets/ic-lionair.png" alt="" />
                                 <Row className="pilihan-maskapai">
-                                    <h6>Lion Air</h6>
+                                    <Link to="/info">Lion Air</Link>
                                     <Col lg={2}>
                                         <h5>07.00</h5>
                                         <p><small>PLM</small></p>
@@ -62,7 +63,7 @@ const searchPage = () => {
                             <Col>
                                 <img src="../src/assets/ic-citilink.png" alt="" />
                                 <Row className="pilihan-maskapai">
-                                    <h6>Citilink</h6>
+                                    <Link to="/info">Citilink</Link>
                                     <Col lg={2}>
                                         <h5>08.00</h5>
                                         <p><small>PLM</small></p>
@@ -87,7 +88,7 @@ const searchPage = () => {
                             <Col>
                                 <img src="../src/assets/ic-batikair.png" alt="" />
                                 <Row className="pilihan-maskapai">
-                                    <h6>Lion Air</h6>
+                                    <Link to="/info">Batik Air</Link>
                                     <Col lg={2}>
                                         <h5>09.00</h5>
                                         <p><small>PLM</small></p>
