@@ -1,4 +1,5 @@
-import { Container, Row, Col, Card, CardBody } from "react-bootstrap"
+import { Container, Row, Col, Card, CardBody } from 'react-bootstrap';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 const TestimoniComponent = () => {
     return (
@@ -10,12 +11,20 @@ const TestimoniComponent = () => {
                         <p>Lihat cerita mereka setelah traveling.</p>
                     </Col>
                 </Row>
-                <Row>
-                    <Col lg={4}>
+                <Swiper
+                    spaceBetween={20}
+                    slidesPerView={2}
+                    breakpoints={{
+                        992: {
+                            slidesPerView: 3
+                        }
+                    }}
+                >
+                    <SwiperSlide>
                         <Card>
                             <Row>
                                 <Col md={6}>
-                                    <img src="../src/assets/testi1.png" className="img-fluid rounded-start" alt="..."/>
+                                    <img src="../src/assets/testi1.png" className="img-fluid rounded-start" alt="..." />
                                 </Col>
                                 <Col md={6}>
                                     <CardBody>
@@ -26,12 +35,12 @@ const TestimoniComponent = () => {
                                 </Col>
                             </Row>
                         </Card>
-                    </Col>
-                    <Col lg={4}>
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <Card>
                             <Row>
                                 <Col md={6}>
-                                    <img src="../src/assets/testi2.png" className="img-fluid rounded-start" alt="..."/>
+                                    <img src="../src/assets/testi2.png" className="img-fluid rounded-start" alt="..." />
                                 </Col>
                                 <Col md={6}>
                                     <CardBody>
@@ -42,12 +51,12 @@ const TestimoniComponent = () => {
                                 </Col>
                             </Row>
                         </Card>
-                    </Col>
-                    <Col lg={4}>
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <Card>
                             <Row>
                                 <Col md={6}>
-                                    <img src="../src/assets/testi3.png" className="img-fluid rounded-start" alt="..."/>
+                                    <img src="../src/assets/testi3.png" className="img-fluid rounded-start" alt="..." />
                                 </Col>
                                 <Col md={6}>
                                     <CardBody>
@@ -58,8 +67,8 @@ const TestimoniComponent = () => {
                                 </Col>
                             </Row>
                         </Card>
-                    </Col>
-                </Row>
+                    </SwiperSlide>
+                </Swiper>
             </Container>
         </div>
     );

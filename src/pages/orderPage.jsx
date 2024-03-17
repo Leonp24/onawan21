@@ -6,6 +6,7 @@ import FooterComponent from "../components/FooterComponent";
 
 
 const orderPage = () => {
+
     return (
         <>
             <div className="order">
@@ -31,29 +32,40 @@ const orderPage = () => {
                                     <Row>
                                         <Col lg={10}>
                                             <Row>
-                                                <Col lg={3}>
+                                                <Col>
                                                     <Form.Label>Dari</Form.Label>
-                                                    <Form.Control type="text" placeholder="Masukkan Kota Asal" required></Form.Control>
+                                                    <Form.Control id="inputDari" type="text" placeholder="Masukkan Kota Asal" required />
                                                 </Col>
-                                                <Col lg={3}>
+                                                <Col>
                                                     <Form.Label>Ke</Form.Label>
-                                                    <Form.Control type="text" placeholder="Masukkan Kota Tujuan" required></Form.Control>
+                                                    <Form.Control id="inputKe" type="text" placeholder="Masukkan Kota Tujuan" required />
                                                 </Col>
-                                                <Col lg={3}>
+                                                <Col>
                                                     <Form.Label>Jumlah Penumpang</Form.Label>
-                                                    <Form.Control type="number" placeholder="Masukkan Jumlah Penumpang" required></Form.Control>
+                                                    <Form.Control id="inputJumlahPenumpang" type="number" placeholder="1" min="1" required />
                                                 </Col>
-                                                <Col lg={3}>
+                                                <Col>
+                                                    <Form.Label>Pilih Kelas</Form.Label>
+                                                    <Form.Control id="inputKelas" as="select">
+                                                        <option value="ekonomi">Ekonomi</option>
+                                                        <option value="bisnis">Bisnis</option>
+                                                        <option value="first">First</option>
+                                                    </Form.Control>
+                                                </Col>
+                                                <Col>
                                                     <Form.Label>Tanggal Berangkat</Form.Label>
-                                                    <Form.Control type="date" required></Form.Control>
+                                                    <Form.Control id="inputTanggalBerangkat" type="date" required />
                                                 </Col>
                                             </Row>
                                         </Col>
-                                        <Col lg={2}>
-                                            <Button variant="btn btn-utama" type="submit">Cari Tiket</Button>
+                                        <Col lg={2} className="d-flex align-items-end">
+                                            <Button variant="btn btn-utama w-100" type="submit">Cari Tiket</Button>
                                         </Col>
                                     </Row>
                                 </Form>
+
+
+
                             </Col>
                         </Row>
                     </Container>

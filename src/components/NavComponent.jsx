@@ -15,7 +15,7 @@ const NavComponent = () => {
                         <NavLink href="/order">Pesan Tiket</NavLink>
                         <NavLink href="/about">Tentang Kami</NavLink>
                         <div className="vr"></div>
-                        <NavLink href="/profil" className='ms-3'>Profil</NavLink>
+                        <NavLink href="/profil">Profil</NavLink>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>

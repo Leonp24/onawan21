@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './style.css'
 import './mobile.css'
+import 'swiper/swiper-bundle.css';
+
 
 // import react-boostrap
 import 'bootstrap/dist/css/bootstrap.min.css';

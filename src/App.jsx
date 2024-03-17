@@ -10,6 +10,7 @@ import homePage from "./pages/homePage";
 import orderPage from "./pages/orderPage";
 import searchPage from "./pages/searchPage";
 import infoPage from "./pages/infoPage";
+import profilPage from "./pages/profilPage";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/order" Component={orderPage} />
         <Route path="/search" Component={searchPage} />
         <Route path="/info" Component={infoPage} />
+        <Route path="/profil" Component={profilPage} />
       </Routes>
     </>
   )
