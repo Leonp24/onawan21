@@ -11,6 +11,7 @@ import orderPage from "./pages/orderPage";
 import searchPage from "./pages/searchPage";
 import infoPage from "./pages/infoPage";
 import profilPage from "./pages/profilPage";
+import bayarPage from "./pages/bayarPage";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/search" Component={searchPage} />
         <Route path="/info" Component={infoPage} />
         <Route path="/profil" Component={profilPage} />
+        <Route path="/bayar" Component={bayarPage} />
       </Routes>
     </>
   )

@@ -339,6 +339,24 @@ body .btn-utama:hover {
     margin-right: 50px;
 }
 
+.detail-info .card {
+    padding: 30px;
+}
+
+.detail-info .form-label {
+    margin-top: 10px;
+}
+
+.detail-info .rincian img {
+    width: 120px;
+    margin-top: -10px;
+}
+
+.detail-info .rincian h5 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
 
 
 
