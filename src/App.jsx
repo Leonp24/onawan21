@@ -12,6 +12,8 @@ import searchPage from "./pages/searchPage";
 import infoPage from "./pages/infoPage";
 import profilPage from "./pages/profilPage";
 import bayarPage from "./pages/bayarPage";
+import konfirmasiPage from "./pages/konfirmasiPage";
+import cetakPage from "./pages/cetakPage";
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
         <Route path="/info" Component={infoPage} />
         <Route path="/profil" Component={profilPage} />
         <Route path="/bayar" Component={bayarPage} />
+        <Route path="/konfirmasi" Component={konfirmasiPage} />
+        <Route path="/cetak" Component={cetakPage} />
       </Routes>
     </>
   )

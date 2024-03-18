@@ -357,7 +357,139 @@ body .btn-utama:hover {
     margin-bottom: 10px;
 }
 
+/* bayar */
+.bayar .nav {
+    margin: 15px 0 15px 0;
+}
+.bayar .card {
+    padding: 30px;
+}
+.bayar .metode {
+    width: 50%;
+}
+.bayar .metode img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+.bayar .rincian img {
+    width: 120px;
+    margin-top: -10px;
+}
 
+.bayar .rincian h5 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* konfirmasi */
+.konfirmasi .card {
+    padding: 30px;
+}
+
+.konfirmasi .card img {
+    width: 120px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.konfirmasi .card h5 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* cetak */
+.cetak .card {
+    padding: 30px;
+}
+
+.cetak .card h6 {
+    margin-top: -10px;
+}
+
+.cetak .detail-penerbangan h6 {
+    background-color: #00487F;
+    height: 30px;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    font-weight: 200;
+}
+
+.cetak .detail-penumpang h6 {
+    background-color: #00487F;
+    height: 30px;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    font-weight: 200;
+}
+
+.cetak .card thead {
+    text-transform: uppercase;
+}
+
+.cetak .opsi .btn {
+    width: 35%;
+}
+ 
+/* profil */
+.profil .info h5 {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.profil .card {
+    padding: 30px;
+}
+
+.profil .nav {
+    margin: 15px 0 15px 0;
+}
+.profil .riwayat h5 {
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.profil .riwayat img {
+    margin-top: -25px;
+}
+
+.profil .pending {
+    background-color: bisque;
+    color: #D0881C;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.profil .lunas {
+    background-color: #68FF9C;
+    color: #0EAC44;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.profil .selesai {
+    background-color: #C9E5FF;
+    color: #00487F;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
 
 
 

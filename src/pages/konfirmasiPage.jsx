@@ -13,7 +13,7 @@ const konfirmasiPage = () => {
                 <Container>
                     <Row>
                         <Col lg={8}>
-                            <h5 className="mt-5 mb-3">Silahkan melakukan pembayaran sebelum tanggal 14/01/2021, pukul 23.00 WIB</h5>
+                            <h6 className="mt-5 mb-3">Silahkan melakukan pembayaran sebelum tanggal 14/01/2021, pukul 23.00 WIB</h6>
                             <Card>
                                 <Row>
                                     <Col lg={6}>
