@@ -317,19 +317,26 @@
     .order .pesan-tiket .container {
         background-color: white;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
-        height: 150px;
+        height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 10px;
-        position: relative;
-        z-index: 1;
-        margin-top: -5%;
+        margin-top: -50%;
+    }
+    
+    .order .pesan-tiket form .row {
+        display: block;
+        align-items: center;
     }
 
-    .order .pesan-tiket form .row {
-        display: flex;
-        align-items: center;
+    .order .pesan-tiket .form-label {
+        margin-top: 10px;
+    }
+
+    .order .pesan-tiket .btn {
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     /* search */
@@ -375,6 +382,200 @@
         margin-right: 50px;
     }
 
+    .detail-info .card {
+        padding: 30px;
+    }
+
+    .detail-info .form-label {
+        margin-top: 10px;
+    }
+
+    .detail-info .rincian {
+        margin-top: 15px;
+    }
+
+    .detail-info .rincian img {
+        width: 120px;
+        margin-top: -10px;
+    }
+
+    .detail-info .rincian h5 {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    /* bayar */
+    .bayar .nav {
+        margin: 15px 0 15px 0;
+    }
+
+    .bayar .card {
+        padding: 30px;
+    }
+
+    .bayar .metode {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .bayar .metode img {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .bayar .rincian img {
+        width: 120px;
+        margin-top: -10px;
+    }
+
+    .bayar .rincian h5 {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    /* konfirmasi */
+    .konfirmasi .card {
+        padding: 30px;
+    }
+
+    .konfirmasi .card img {
+        width: 120px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .konfirmasi .card h5 {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    /* cetak */
+    .cetak .card {
+        padding: 30px;
+    }
+
+    .cetak .card h6 {
+        margin-top: -10px;
+    }
+
+    .cetak .detail-penerbangan h6 {
+        background-color: #00487F;
+        height: 30px;
+        color: white;
+        align-items: center;
+        display: flex;
+        padding: 15px;
+        font-weight: 200;
+    }
+
+    .cetak .detail-penumpang h6 {
+        background-color: #00487F;
+        height: 30px;
+        color: white;
+        align-items: center;
+        display: flex;
+        padding: 15px;
+        font-weight: 200;
+    }
+
+    .cetak .card thead {
+        text-transform: uppercase;
+    }
+
+    .cetak .opsi .btn {
+        width: 35%;
+    }
+
+    /* profil */
+    .profil .info h5 {
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+
+    .profil .card {
+        padding: 30px;
+    }
+
+    .profil .nav {
+        margin: 15px 0 15px 0;
+    }
+
+    .profil .riwayat h5 {
+        margin-top: -10px;
+        margin-bottom: 15px;
+    }
+
+    .profil .riwayat img {
+        margin-top: -25px;
+    }
+
+    .profil .pending {
+        background-color: bisque;
+        color: #D0881C;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: -10px;
+    }
+
+    .profil .lunas {
+        background-color: #68FF9C;
+        color: #0EAC44;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: -10px;
+    }
+
+    .profil .selesai {
+        background-color: #C9E5FF;
+        color: #00487F;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: -10px;
+    }
+
+
+
+    /* footer */
+    footer {
+        background-color: #00487F;
+        color: white;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    footer h5 {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    footer h6 {
+        text-align: end;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+    }
+
+    footer a:hover {
+        text-decoration: underline yellow;
+        color: white;
+    }
 
 
 

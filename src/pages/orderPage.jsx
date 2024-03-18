@@ -42,7 +42,7 @@ const orderPage = () => {
                                                 </Col>
                                                 <Col>
                                                     <Form.Label>Jumlah Penumpang</Form.Label>
-                                                    <Form.Control id="inputJumlahPenumpang" type="number" placeholder="1" min="1" required />
+                                                    <Form.Control id="inputJumlahPenumpang" type="number" placeholder="Jumlah Penumpang" min="1" required />
                                                 </Col>
                                                 <Col>
                                                     <Form.Label>Pilih Kelas</Form.Label>
@@ -63,9 +63,6 @@ const orderPage = () => {
                                         </Col>
                                     </Row>
                                 </Form>
-
-
-
                             </Col>
                         </Row>
                     </Container>

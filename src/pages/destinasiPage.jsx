@@ -18,7 +18,7 @@ const destinasiPage = () => {
                             <Col lg={5}>
                                 <div className="deskripsi-hero">
                                     <h1>Kami rekomendasikan destinasi wisata terbaik.</h1>
-                                    <p>Destinasi wisata dengan fasilitas dan pemandangan yang indah <br /> untuk menyegarkan pikiran.</p>
+                                    <p>Destinasi wisata dengan fasilitas dan pemandangan yang indah untuk menyegarkan pikiran.</p>
                                     <Button href="/masuk" variant="outline-dark">Pesan Sekarang</Button>
                                 </div>
                             </Col>
